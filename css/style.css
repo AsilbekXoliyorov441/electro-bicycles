@@ -1,0 +1,39 @@
+.container{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+
+
+header{
+  background-color: orange;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
